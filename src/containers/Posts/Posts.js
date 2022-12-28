@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import axios from "../../axios";
 import Post from "../../components/Post/Post";
 import Spinner from "../../components/Spinner/Spinner";
-import { Link, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
 import FullPost from "../FullPost/FullPost";
 import "./Posts.css";
 
