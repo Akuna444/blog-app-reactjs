@@ -1,0 +1,20 @@
+.Blog ul {
+  display: flex;
+  justify-content: center;
+}
+
+.Blog li {
+  list-style: none;
+  margin: 10px;
+}
+
+.Blog a {
+  text-decoration: none;
+  color: black;
+}
+
+.Blog a:hover,
+.Blog a:active,
+.Blog a.active {
+  color: orange;
+}
